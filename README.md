@@ -1,13 +1,10 @@
-# BigLab 2 - Class: 2021 AW1 A-L
+# Task Manager
 
-## Team name: Future30s
-
-Team members:
-
-- s280119 CHIMIRRI ARMANDO
-- s280025 IAMMARINO SOFIA
-- s285913 BRAMINI MARCO
-- s279575 DAMINO DESIRE'
+Authors:
+- CHIMIRRI ARMANDO
+- IAMMARINO SOFIA
+- BRAMINI MARCO
+- DAMINO DESIRE'
 
 ## Instructions for testing
 
