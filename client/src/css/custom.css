@@ -1,0 +1,165 @@
+/* Global */
+.vheight-100 {
+  min-height: 100vh;
+}
+
+.below-nav {
+  padding-top: 5rem;
+}
+
+.fw-200 {
+  font-weight: 200 !important;
+}
+
+.fw-300 {
+  font-weight: 300 !important;
+}
+
+/* Logo */
+.logo-text-large {
+  font-size: 1.75em;
+  font-weight: 500;
+}
+
+.logo-text-medium {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+/* Launch page*/
+
+.launch-page-spinner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Login Page */
+.login-page-container-separator {
+  border-right: 10px dotted darkgray;
+}
+
+.login-page-container {
+  min-width: 300px;
+}
+
+/* Navbar */
+
+.navbar-collapse-background {
+  background-color: #f8f9fa;
+}
+
+@media (min-width: 576px) {
+  .navbar-collapse-background {
+    background-color: transparent;
+  }
+}
+
+.navbar-outside-space {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+}
+
+/* Filters and projects */
+
+.filter-label {
+  font-weight: 200;
+}
+
+.list-group-item {
+  background-color: transparent !important;
+}
+
+.list-group-item.active {
+  background-color: #28a745 !important;
+  border-color: #28a745 !important;
+}
+
+.list-group-item-action:hover {
+  background-color: #9becae !important;
+}
+
+/* Task list */
+
+.task-list {
+  margin-bottom: 120px;
+}
+
+.task-list-empty {
+  height: 100%;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50%;
+  color: #28a745;
+}
+
+.important {
+  color: red;
+}
+
+.task-date {
+  width: 30%;
+}
+
+.task-status {
+  min-width: 16px;
+}
+
+.task-changed {
+  background-color: #ffc107 !important;
+}
+
+.task-deleted {
+  background-color: #dc3545 !important;
+}
+
+/* Add task button */
+.fixed-right-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+  margin: 0 1.5rem 1.5rem 0;
+  border-radius: 50% !important;
+}
+
+/* Spinner */
+.task-list-loading-spinner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* TaskEditForm */
+
+.taskedit-date-picker,
+.taskedit-date-picker > div.react-datepicker-wrapper,
+.taskedit-date-picker
+  > div
+  > div.react-datepicker__input-container
+  .taskedit-date-picker
+  > div
+  > div.react-datepicker__input-container
+  input {
+  width: 100%;
+}
+
+/* Error toast */
+.error-toast {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 1%;
+  margin-left: 1%;
+}
+
+.error-toast-header {
+  background-color: #f8d7da !important;
+}
